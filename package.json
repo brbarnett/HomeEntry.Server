@@ -13,5 +13,9 @@
     "express": "^4.13.4",
     "lodash": "^4.9.0",
     "mongodb": "^2.1.16"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "vinyl-ftp": "^0.4.5"
   }
 }

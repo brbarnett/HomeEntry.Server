@@ -15,6 +15,7 @@ app.post('/api/entry/authenticate', function(req, res) {
   res.send(_.includes(allowed, uid));
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+var port = process.env.PORT || 1337;
+app.listen(port, function () {
+  console.log('Server started');
 });
