@@ -11,7 +11,8 @@ var allowed = [
 
 app.post('/api/entry/authenticate', function(req, res) {
   var uid = req.body.uid;
-  
+//   console.log(uid);
+  console.log(req.body);
   res.send(_.includes(allowed, uid));
 });
 
